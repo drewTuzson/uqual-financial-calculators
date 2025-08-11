@@ -1,0 +1,72 @@
+/**
+ * UQUAL Financial Calculators - Divi Theme Compatibility
+ * 
+ * Styles to ensure proper integration with Divi theme
+ */
+
+/* Inherit Divi's design system */
+.et-db .uqual-calculator-wrapper {
+    font-family: inherit;
+}
+
+.et-db .uqual-calculator-intro h2 {
+    font-family: inherit;
+    font-weight: inherit;
+}
+
+/* Divi button compatibility */
+.et-db .uqual-calculate-btn,
+.et-db .cta-button {
+    font-family: inherit;
+    text-transform: inherit;
+    letter-spacing: inherit;
+}
+
+/* Use Divi's color scheme if available */
+.et-db .uqual-calculator-wrapper {
+    --uqual-primary-color: var(--et-global-color-primary, #2E7D32);
+    --uqual-accent-color: var(--et-global-color-secondary, #FFA726);
+}
+
+/* Divi section compatibility */
+.et_pb_section .uqual-calculator-wrapper {
+    max-width: none;
+}
+
+.et_pb_row .uqual-calculator-wrapper {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+/* Override Divi's aggressive resets */
+.uqual-calculator .et_pb_module {
+    margin-bottom: 0 !important;
+}
+
+/* Divi animation compatibility */
+.et_pb_module.et_animated .uqual-calculator {
+    opacity: inherit;
+    transform: inherit;
+}
+
+/* Visual Builder compatibility */
+.et-fb .uqual-calculator {
+    pointer-events: auto;
+}
+
+.et-fb .uqual-calculator-form {
+    pointer-events: auto;
+}
+
+/* Divi's responsive utilities */
+@media (max-width: 980px) {
+    .et_pb_row .uqual-calculator-wrapper {
+        padding: 0 20px;
+    }
+}
+
+@media (max-width: 767px) {
+    .et_pb_row .uqual-calculator-wrapper {
+        padding: 0 15px;
+    }
+}
