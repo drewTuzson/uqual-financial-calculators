@@ -13,7 +13,7 @@
  * Requires at least: 5.8
  * Requires PHP: 7.4
  * 
- * GitHub Plugin URI: your-username/uqual-financial-calculators
+ * GitHub Plugin URI: drewTuzson/uqual-financial-calculators
  * GitHub Branch: main
  * GitHub Access Token: ghp_xxxxxxxxxxxxxxxxxxxx
  * Primary Branch: main
