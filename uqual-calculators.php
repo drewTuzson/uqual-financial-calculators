@@ -15,7 +15,6 @@
  * 
  * GitHub Plugin URI: drewTuzson/uqual-financial-calculators
  * GitHub Branch: main
- * GitHub Access Token: ghp_xxxxxxxxxxxxxxxxxxxx
  * Primary Branch: main
  * Release Asset: true
  * 
